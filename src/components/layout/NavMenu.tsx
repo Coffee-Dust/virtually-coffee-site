@@ -25,7 +25,7 @@ export default function NavMenu(props: {toggleMenu: ()=>void, mobileMenuIsOpen: 
 			<AppLogo isStatic={false}/>
 			<div className="Mobile-open-menu" onClick={props.toggleMenu}><span>menu</span></div>
 			<nav ref={navRef}>
-				<NavLink to="/" onClick={onNavClick}>Home</NavLink>
+				<NavLink exact to="/" onClick={onNavClick}>Home</NavLink>
 
 				<NavLink to="/virtually8bit" onClick={onNavClick}>Virtually 8-bit</NavLink>
 				
