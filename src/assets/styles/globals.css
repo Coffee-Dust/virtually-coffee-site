@@ -1,0 +1,63 @@
+/* Colors:
+background green(transparent) - #15211fd6
+background green(solid) - #2c4844
+background green(lighter) - #314c47
+
+text green - #72f093
+*/
+
+@font-face {
+  font-family: pixel;
+  src: url('../MorePerfectDOSVGA.ttf');
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: pixel, monospace;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background: url("../images/brick_bg.jpg");
+  background-size: cover;
+}
+
+.App-logo {
+  grid-area: l;
+  max-width: 160px;
+  width: 75%;
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
+}
+
+.App-logo-static {
+  display: none;
+}
+
+
+
+/* Responsive Media Queries */
+@media only screen and (max-width: 800px) {
+  .App-logo-static {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: 120px;
+    width: 75%;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  }
+}

@@ -1,0 +1,82 @@
+.page {
+	padding: 20px;
+	padding-top: 0px;
+	overflow-x: hidden;
+	text-align: center;
+}
+	
+.title {
+	height: 70px;
+	margin-bottom: 10px;
+	border-bottom: #72f093 1px solid;
+}
+.title > hr {
+	border-color: #72f093;
+}
+
+.title>h1 {
+	float: left;
+}
+
+.title>a {
+	float: right;
+}
+
+.title>a>img {
+	margin-top: 15px;
+	height: 100%;
+}
+
+.intro > h2 {
+	font-size: 1.8em;
+	color: white;
+}
+.intro>p {
+	font-size: 1.1em;
+}
+
+.demoVideo {
+	margin-bottom: 100px;
+}
+
+.gameTitle {
+	display: grid;
+	grid-template-areas: 'i t t ii';
+	height: 70px;
+	width: 100%;
+}
+.gameTitle>img {
+	grid-area: i;
+	display: block;
+	max-height: 70px;
+	justify-self: center;
+}
+.gameTitle>span>img {
+	max-height: 70px;
+}
+.gameTitle>span {
+	grid-area: ii;
+	display: block;
+	justify-self: center;
+}
+.gameTitle>h2 {
+	grid-area: t;
+	display: block;
+	font-size: 1.8em;
+	justify-self: center;
+}
+.gameTitle>h3 {
+	grid-area: t;
+	display: block;
+	font-size: 1.4em;
+	justify-self: center;
+}
+
+.demoVideo>video {
+	width: 100%;
+	border-radius: 25px;
+}
+
+.demoCaption {
+	margin-bottom: 10px;
+}

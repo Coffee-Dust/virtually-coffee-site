@@ -1,0 +1,31 @@
+
+.close {
+	background: darkred;
+	font-size: 1.3em;
+	padding: 10px;
+	border-radius: 100px;
+}
+
+
+.styledButtonDark {
+	background: #250a01e1;
+	border-radius: 10px;
+	/* color: #250a01e1; */
+	color: antiquewhite;
+	font-family: 'Source-Code-Pro', monospace;
+	font-weight: 600;
+	font-size: 0.8em;
+	text-align: center;
+	cursor: pointer;
+}
+
+.styledButtonLight {
+	background: antiquewhite;
+	border-radius: 10px;
+	color: #250a01e1;
+	font-family: 'Source-Code-Pro', monospace;
+	font-weight: 600;
+	font-size: 0.8em;
+	text-align: center;
+	cursor: pointer;
+}

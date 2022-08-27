@@ -1,0 +1,48 @@
+.page {
+	padding: 20px;
+	padding-top: 0px;
+	overflow-x: hidden;
+}
+
+.title > hr {
+	border-color: #72f093;
+}
+
+.virt8bit {
+	float: left;
+	width: 60%;
+}
+
+.virt8bit > h3 {
+	padding-top: 20px;
+}
+.virt8bit > h3 > a {
+	text-decoration: underline;
+}
+
+.virt8bitImage {
+	margin-top: 25px;
+	margin-right: 1%;
+	width: 38%;
+	max-width: 325px;
+	float: right;
+	transform: rotateZ(10deg);
+}
+
+.john {
+	float: right;
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 1px solid #72f093;
+	width: 100%;
+}
+
+.john > img {
+	width: 30%;
+	max-width: 260px;
+	margin-left: 1%;
+	float: left;
+	transform: rotateZ(-10deg);
+	margin-right: 20px;
+	border: 2px solid #72f093;
+}

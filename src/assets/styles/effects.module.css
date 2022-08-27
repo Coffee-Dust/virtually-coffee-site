@@ -1,0 +1,13 @@
+.sunBoxShadow {
+	box-shadow: 5px 10px 15px 10px #000000e7;
+}
+
+.sunTextShadow {
+	text-shadow: 5px 5px 4px #000000;
+}
+
+.blurBackdrop {
+	-webkit-backdrop-filter: blur(10px);
+	-moz-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}

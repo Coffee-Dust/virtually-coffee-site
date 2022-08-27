@@ -1,0 +1,30 @@
+.App-content-container {
+	position: relative;
+	margin-right: 5%;
+	width: 75%;
+	/* background: #141414dc; */
+	background: #15211fd6;
+	color: #72f093;
+	box-shadow: 5px 10px 15px 10px #000000e7;
+	overflow: auto;
+}
+
+.Page-content {
+	position: relative;
+	/* padding: 10px; */
+}
+
+.Page-content>h1 {
+	position: relative;
+	margin-left: 30px;
+}
+
+
+
+/* Responsive Media Queries */
+@media only screen and (max-width: 800px) {
+	.App-content-container {
+			width: 90%;
+			margin-left: 13%;
+	}
+}
