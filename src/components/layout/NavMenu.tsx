@@ -28,6 +28,8 @@ export default function NavMenu(props: {toggleMenu: ()=>void, mobileMenuIsOpen: 
 				<NavLink exact to="/" onClick={onNavClick}>Home</NavLink>
 
 				<NavLink to="/virtually8bit" onClick={onNavClick}>Virtually 8-bit</NavLink>
+
+				<NavLink to="/support" onClick={onNavClick}>Support</NavLink>
 				
 				<a href="https://john.virtually.coffee">John Dust</a>
 			</nav>	
