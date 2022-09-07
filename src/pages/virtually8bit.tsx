@@ -21,7 +21,7 @@ const Virtually8bit = () => {
 
 			<div className={style.title}>
 				<h1>Virtually 8-bit!</h1>
-				<a href=''><img src="/images/Download_on_the_App_Store_Badge.svg" alt="download" /></a>
+				<a href="//download.virtually8bit.virtually.coffee"><img src="/images/Download_on_the_App_Store_Badge.svg" alt="download" /></a>
 			</div>
 
 			<div className={style.intro}>
