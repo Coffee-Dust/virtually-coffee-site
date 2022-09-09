@@ -5,17 +5,6 @@ type DelayableVideoElement = HTMLVideoElement & { hasBeenDelayed: boolean }
 
 const Virtually8bit = () => {
 
-	const delayVideoPlay = (event: React.BaseSyntheticEvent) => {
-		const video = event.target as DelayableVideoElement
-		if (video.hasBeenDelayed == undefined || video.hasBeenDelayed == false) {
-			video.hasBeenDelayed = true
-			video.pause()
-		}
-		setTimeout(() => {
-			video.play()
-		}, 5000 * Number(video.id));
-	}
-
 	return (
 		<div className={style.page}>
 
