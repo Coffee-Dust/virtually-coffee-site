@@ -1,7 +1,6 @@
 import React from 'react'
 import style from '../assets/styles/pages/virtually8bit.module.css'
-
-type DelayableVideoElement = HTMLVideoElement & { hasBeenDelayed: boolean }
+import DemoVideo from '../components/pages/virtually8bit/DemoVideo'
 
 const Virtually8bit = () => {
 
