@@ -23,30 +23,35 @@ const Virtually8bit = () => {
 
 				{/* Game Demo - Meteoroids */}
 				<div className={style.demoVideo}>
+
 					<div className={style.gameTitle}>
 						<img src="images/meteoroidsAssets/spaceship.png" alt="" />
 						<h2>Meteoroids!</h2>
 						<span><img src="images/meteoroidsAssets/asteroid2Frozen.png" alt="" /></span>
 					</div>
+
 					<p className={style.demoCaption}>Playing one of the available games, a space-shooter called Meteoroids</p>
-					<video id="1" src="/media/virtually8bit_demo_videos/demo1_meteoroids.mp4" muted={true} autoPlay={true} loop={true} playsInline={true} onPlay={delayVideoPlay}></video>
+					<DemoVideo id="demo1" videoID='kkipzYJs21U' />
+
 					{/* Sub Video - Meteoroids features */}
 					<div className={style.demoVideo} style={{ float: 'right', width: '85%', textAlign: 'right' }}>
 						<h3 style={{ fontSize: '1.5em' }}>Powerups & Upgrades!</h3>
 						<p className={style.demoCaption}>Demonstration of navigating menus and purchasing features on Meteoroids</p>
-						<video id="2" src="/media/virtually8bit_demo_videos/demo3_menus.mp4" muted={true} autoPlay={true} loop={true} playsInline={true} onPlay={delayVideoPlay}></video>
+						<DemoVideo id="demo1.1" videoID='TrNs3jTOOSk' />
 					</div>
 				</div>
 
 				{/* Game Demo - Bit-Breaker */}
 				<div className={style.demoVideo}>
+
 					<div className={style.gameTitle}>
 						<img src="images/bitbreakerAssets/ballnpaddle.png" alt="" />
 						<h2>Bit-Breaker!</h2>
 						<span><img src="images/bitbreakerAssets/blockDamaged.png" alt="" /></span>
 					</div>
+
 					<p className={style.demoCaption}>Playing BitBreaker, a Breakout style game currently in early access.</p>
-					<video id="1" src="/media/virtually8bit_demo_videos/demo2_bitBreaker.mp4" muted={true} autoPlay={true} loop={true} playsInline={true} onPlay={delayVideoPlay}></video>
+					<DemoVideo id='demo2' videoID='RTu6rLbiNuY' />
 				</div>
 
 				<p>And there will be more games available in the future!</p>
