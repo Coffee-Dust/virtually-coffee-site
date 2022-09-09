@@ -16,7 +16,7 @@ const DemoVideo: React.FC<Props> = (props: Props) => {
 			<div style={{
 				overflow: "hidden",
 				aspectRatio: "19.5/9",
-				pointerEvents: "none",
+				pointerEvents: (window.innerWidth >= 800 ? "none" : "all"),
 				borderRadius: "40px",
 				transform: "translateZ(0px)",
 				boxShadow: "-2px 5px 10px #000000"
