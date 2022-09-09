@@ -10,7 +10,11 @@ const DemoVideo: React.FC<Props> = (props: Props) => {
 
 
 	return (
-		
+		<div id={props.id} style={{
+			maxWidth: `${props.widthPercentage || 100}%`
+		}}>
+			
+		</div>
 	)
 }
 
