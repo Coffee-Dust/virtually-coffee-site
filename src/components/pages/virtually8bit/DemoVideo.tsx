@@ -7,7 +7,7 @@ interface Props {
 }
 
 const DemoVideo: React.FC<Props> = (props: Props) => {
-
+	const origin = window.location.hostname
 
 	return (
 		<div id={props.id} style={{
