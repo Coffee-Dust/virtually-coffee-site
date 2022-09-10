@@ -8,10 +8,6 @@
 .title {
 	height: 70px;
 	margin-bottom: 10px;
-	border-bottom: #72f093 1px solid;
-}
-.title > hr {
-	border-color: #72f093;
 }
 
 .title>h1 {
@@ -27,6 +23,10 @@
 	height: 100%;
 }
 
+.intro {
+	width: 100%;
+	float: none;
+}
 .intro > h2 {
 	font-size: 1.8em;
 	color: white;
@@ -45,15 +45,13 @@
 	height: 70px;
 	width: 100%;
 }
-.gameTitle>img {
+.gameTitle img {
 	grid-area: i;
 	display: block;
 	max-height: 70px;
 	justify-self: center;
 }
-.gameTitle>span>img {
-	max-height: 70px;
-}
+
 .gameTitle>span {
 	grid-area: ii;
 	display: block;
@@ -79,4 +77,39 @@
 
 .demoCaption {
 	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+	.page {
+		padding: 10px;
+	}
+	.title > h1 {
+		width: 100%;
+		text-align: center;
+	}
+	.title > a {
+		width: 100%;
+	}
+	.title > a > img {
+		margin-top: 0;
+	}
+
+	.gameTitle {
+		height: 60px;
+	}
+	.gameTitle > h2 {
+		font-size: 1.5em;
+	}
+	.gameTitle img {
+		max-height: 50px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.page {
+		padding: 5px;
+	}
+	.gameTitle img {
+		max-height: 40px;
+	}
 }

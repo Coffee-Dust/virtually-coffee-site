@@ -12,8 +12,10 @@ const Virtually8bit = () => {
 				<a href="//download.virtually8bit.virtually.coffee"><img src="/images/Download_on_the_App_Store_Badge.svg" alt="download" /></a>
 			</div>
 
+			<hr color='#72f093'/>
+
 			<div className={style.intro}>
-				<h2>It isn&apos;t just a game or an app, <br />It&apos;s an entire handheld gaming console!</h2>
+				<h2>It isn&apos;t just a game or an app <br />It&apos;s an entire handheld gaming console!</h2>
 				<p>With gaming consoles, you aren&apos;t just limited to playing one game. <br />It&apos;s the same on Virtually 8-bit! It comes with multiple different games right out of the box!</p>
 			</div>
 
@@ -26,7 +28,7 @@ const Virtually8bit = () => {
 
 					<div className={style.gameTitle}>
 						<img src="images/meteoroidsAssets/spaceship.png" alt="" />
-						<h2>Meteoroids!</h2>
+						<h2>Meteoroids</h2>
 						<span><img src="images/meteoroidsAssets/asteroid2Frozen.png" alt="" /></span>
 					</div>
 
@@ -46,7 +48,7 @@ const Virtually8bit = () => {
 
 					<div className={style.gameTitle}>
 						<img src="images/bitbreakerAssets/ballnpaddle.png" alt="" />
-						<h2>Bit-Breaker!</h2>
+						<h2>Bit-Breaker</h2>
 						<span><img src="images/bitbreakerAssets/blockDamaged.png" alt="" /></span>
 					</div>
 
