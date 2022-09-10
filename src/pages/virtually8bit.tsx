@@ -15,7 +15,7 @@ const Virtually8bit = () => {
 			<hr color='#72f093'/>
 
 			<div className={style.intro}>
-				<h2>It isn&apos;t just a game or an app <br />It&apos;s an entire handheld gaming console!</h2>
+				<h2>This isn&apos;t just a game or an app. <br />It&apos;s an entire handheld gaming console!</h2>
 				<p>With gaming consoles, you aren&apos;t just limited to playing one game. <br />It&apos;s the same on Virtually 8-bit! It comes with multiple different games right out of the box!</p>
 			</div>
 
