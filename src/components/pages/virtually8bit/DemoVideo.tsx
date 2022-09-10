@@ -40,7 +40,7 @@ const DemoVideo: React.FC<Props> = (props: Props) => {
 				</div>
 			</BrowserView>
 			<MobileView>
-				<img src={`/media/${props.mobileThumbnail}`} alt="" style={{width: "100%", borderRadius: 15}} />
+				<img src={`/media/${props.mobileThumbnail}`} alt="" style={{ width: "100%", borderRadius: 15, boxShadow: "-2px 5px 10px #000000" }} />
 			</MobileView>
 		</div>
 	)
