@@ -31,13 +31,13 @@ const Virtually8bit = () => {
 					</div>
 
 					<p className={style.demoCaption}>Playing one of the available games, a space-shooter called Meteoroids</p>
-					<DemoVideo id="demo1" videoID='kkipzYJs21U' />
+					<DemoVideo id="demo1" videoID='kkipzYJs21U' mobileThumbnail='meteoroids1.PNG'/>
 
 					{/* Sub Video - Meteoroids features */}
 					<div className={style.demoVideo} style={{ float: 'right', width: '85%', textAlign: 'right' }}>
 						<h3 style={{ fontSize: '1.5em' }}>Powerups & Upgrades!</h3>
 						<p className={style.demoCaption}>Demonstration of navigating menus and purchasing features on Meteoroids</p>
-						<DemoVideo id="demo1.1" videoID='TrNs3jTOOSk' />
+						<DemoVideo id="demo1.1" videoID='TrNs3jTOOSk' mobileThumbnail='meteoroids2.1.PNG' />
 					</div>
 				</div>
 
@@ -51,7 +51,7 @@ const Virtually8bit = () => {
 					</div>
 
 					<p className={style.demoCaption}>Playing BitBreaker, a Breakout style game currently in early access.</p>
-					<DemoVideo id='demo2' videoID='RTu6rLbiNuY' />
+					<DemoVideo id='demo2' videoID='RTu6rLbiNuY' mobileThumbnail='bitbreaker1.PNG'/>
 				</div>
 
 				<p>And there will be more games available in the future!</p>
