@@ -1,0 +1,10 @@
+.infoDiv {
+	border: 1px solid #72f093;
+	padding: 10px;
+	padding-top: 0px;
+	margin-bottom: 10px;
+}
+
+.infoDiv > h2 {
+	color: white;
+}
