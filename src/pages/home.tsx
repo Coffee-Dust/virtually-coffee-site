@@ -15,7 +15,7 @@ const Home = () => (
     <div className={style.virt8bit}>
       <h2>The Studio Behind <em style={{color: 'white'}}>Virtually 8-bit!</em></h2>
       <p>It&apos; s the first mobile game of it&apos;s kind. It simulates a classic handheld gaming console and features multiple different games to play all inside the same app!</p>
-      <h3>Download today on the <a href="//download.virtually8bit.virtually.coffee">App Store</a>!</h3>
+      <h3>Download today on the <a href="https://apps.apple.com/us/app/virtually-8-bit-game-console/id1634501013">App Store</a>!</h3>
     </div>
 
     <a href="https://john.virtually.coffee" className={style.john}>
