@@ -8,7 +8,7 @@ const Home = () => (
       <hr />
     </div>
 
-    <a href="//download.virtually8bit.virtually.coffee">
+    <a href="https://apps.apple.com/us/app/virtually-8-bit-game-console/id1634501013">
     <img className={style.virt8bitImage} src="/images/downloadVirtually8bit.svg" alt="download" />
     </a>
 
