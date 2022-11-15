@@ -9,7 +9,7 @@ const Virtually8bit = () => {
 
 			<div className={style.title}>
 				<h1>Virtually 8-bit!</h1>
-				<a href="https://apps.apple.com/us/app/virtually-8-bit-game-console/id1634501013"><img src="/images/Download_on_the_App_Store_Badge.svg" alt="download" /></a>
+				<a href="https://apps.apple.com/us/app/virtually-8-bit-game-console/id1634501013" target={"_blank"}><img src="/images/Download_on_the_App_Store_Badge.svg" alt="download" /></a>
 			</div>
 
 			<hr color='#72f093'/>
